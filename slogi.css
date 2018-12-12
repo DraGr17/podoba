@@ -1,0 +1,77 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+#Navigacija {
+	height: 100px;
+	background-color: red;
+	padding: 5px;
+}
+h1 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 0px;
+}
+h2 {
+	padding: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
+#GlavniOkvir {
+	min-height: 10px;
+}
+#Vsebina {
+	background-color: #992600;
+	min-height: 700px;
+	width: 1500px;
+	margin: 0 auto 0;
+	padding: 5px;
+	text-align: center;
+}
+#Noga {
+	height: 200px;
+	background-color: red; 
+}
+#Google {
+	width: 500px;
+	transition: all .5 ease;
+}
+#Google:hover {
+	transition: all 2s ease;
+	height: 300px;
+	width: auto;
+}
+#Luka {
+	font-size: 20px;
+	text-align: center;
+}
+#kvadrat {
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	align-items: center;
+	padding-top: 20px;
+	margin: 0 auto 0;
+}
+#desno {
+	background-color: grey;
+	width: 450px;
+	height: 710px;
+}
+#levo {
+	background-color: grey;
+	width: 450px;
+	height: 710px;
+}
+#Okvirji {
+	margin: 0px;
+	display: flex;
+	flex-direction: row; 
+}
